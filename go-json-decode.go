@@ -15,7 +15,7 @@ func main() {
     flag.Parse()
 
     if *debug {
-        fmt.Printf("# Run flags: shell=%s, debug=%t, validate=%t, env=%s\n", *shell, *debug, *jsonEnv)
+        fmt.Printf("# Run flags: shell=%s, debug=%t, env=%s\n", *shell, *debug, *jsonEnv)
     }
 
     if *jsonEnv == "" {
